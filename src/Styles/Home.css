@@ -234,7 +234,7 @@
     .char-image{
         width: 45%;
         overflow: hidden;
-
+        
         img{
             width: 100%;
             transition-duration: 2s;
@@ -273,5 +273,92 @@
 
     .slogan:hover{
         letter-spacing: 1px;
+    }
+}
+
+.industry-skills-container{
+
+    .industry-skills-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+    }
+
+    .industry-skills-image{
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 1);
+
+        img{
+            width: 100%;
+            height: 100%;
+            opacity: 0.4;
+            z-index: -1;
+            transition-duration: 2s;
+        }
+
+        img:hover{
+            scale: 1.2;
+        }
+    }
+
+    .industry-skills-data{
+        width: 50%;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100%;
+        background-color: #b8aa83;
+        color: white;
+    }
+
+    .heading{
+        font-family: "Kanit", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: capitalize;
+        width: 80%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+    }
+
+    .industry-skills{
+        width: 80%;
+        height: 60%;
+    }
+
+    .industry-skill{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        font-family: "Kanit", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .skill-name{
+        float: left;
+    }
+
+    .skillanount{
+        float: right;
+    }
+
+    .skill-visulizer{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.323),rgba(0, 0, 0, 0.323));
+        background-size: 1% 100%;
+        background-repeat: no-repeat;
+        border: .5px solid black;
+        height: 5px;
+        transition-duration: 1s;
+    }
+    .industry-skill:hover .skill-visulizer{
+        background-size: 100% 100%;
     }
 }

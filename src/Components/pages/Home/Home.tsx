@@ -4,6 +4,7 @@ import SectionHeading from '../../Common/SectionHeading';
 import ProductCardOne from '../../Common/ProductCardOne';
 import Numbers from './Home-components/Numbers';
 import QualityInovation from './Home-components/QualityInovation';
+import IndustrySkills from './Home-components/IndustrySkills';
 
 function Home(props) {
 
@@ -66,6 +67,12 @@ function Home(props) {
                 <QualityInovation />
             </div>
             <div className="industry-skills-container">
+                <IndustrySkills />
+            </div>
+            <div className='section-heading-container'>
+                <SectionHeading backgroundText="Plast" headingText1="MEET THE" headingText2="BUDDY TEAM" />
+            </div>
+            <div className="buddy-team-cards-container">
                 
             </div>
         </>
