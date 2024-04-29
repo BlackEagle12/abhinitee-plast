@@ -1,4 +1,25 @@
+@import url('/src/Styles/AboutUs.css');
+@import url('/src/Styles/Common.css');
+@import url('/src/Styles/ContactUs.css');
+@import url('/src/Styles/Home.css');
+@import url('/src/Styles/NoPage.css');
+@import url('/src/Styles/Product.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Kanit:wght@200;400;800&family=Lato:wght@400;700&display=swap');
+
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import TopNavigation from './Components/Common/top-navigation/top-navigation'
+import TopNavigation from './Components/Common/TopNavigation'
 import Home from './Components/pages/Home/Home'
 import AboutUs from './Components/pages/About Us/AboutUs'
 import ContactUs from './Components/pages/Contect Us/ContactUs'
