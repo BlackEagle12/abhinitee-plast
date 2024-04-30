@@ -1,0 +1,184 @@
+.about-what-we-do-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .what-we-do-text{
+        width: 60%;
+        text-align: center;
+        font-family: "Abel", sans-serif;
+        font-size: 17px;
+    }
+}
+
+.about-us-what-we-do-boxes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .about-us-what-we-do-boxes-content{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .what-we-do-box{
+        border: 1px solid rgba(0,0,0,0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 30px;
+        margin: 30px;
+        transition-duration: 500ms;
+    }
+
+    .what-we-do-box-heading{
+        font-family: "Kanit", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 30px;
+        text-transform: uppercase;
+    }
+
+    .what-we-do-box-description{
+        font-family: "Abel", sans-serif;
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .what-we-do-box:hover{
+        background-color: #f3f3f3;
+    }
+}
+
+.about-us-contact-button-container{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .about-us-contact-button{
+        background-color: #b8aa83;
+        color: #fff;
+        font-family: "Kanit", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 15px 30px;
+        border: none;
+        cursor: pointer;
+        transition-duration: 1s;
+    }
+
+    .about-us-contact-button:hover{
+        /* padding: 20px 40px; */
+        font-size: 18px;
+    }
+}
+
+.about-us-who-we-are-container{
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 100px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    .about-us-who-we-are-content{
+        width: 100%;
+        display: flex;
+    }
+
+    .section-heading-container{
+
+        .section-heading-content{
+            font-size: 40px;
+            height: auto;
+        }
+    }
+
+    .who-we-are-image{
+        width: 50%;
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            height: 100%;
+            transition-duration: 2s;
+        }   
+    }
+
+    .who-we-are{
+        width: 50%;
+        padding: 20px;
+    }
+
+    .who-we-are-description{
+        font-family: "Abel", sans-serif;
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .abhinitee-plast-logo{
+        width: 80px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .about-us-who-we-are-content:hover .who-we-are-image img{
+        scale: 1.2;
+    }
+}
+
+.about-us-our-flagship-products-container{
+
+    .about-us-our-flagship-products-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+    }
+
+    .product-card{
+        width: 20%;
+    }
+
+    .product-image{
+        width: 100%;
+        overflow: hidden;
+        
+        img{
+            width: 100%;
+            transition-duration: 2s;
+        }
+    }
+
+    .product-info{
+        height: 100px;
+        background-color: #f6f6f6;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+
+    .product-name{
+        font-family: "Kanit", sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    
+    .product-title{
+        font-family: "Kanit", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+    }
+
+    .product-card:hover .product-image img{
+        scale: 1.2;
+    }
+}

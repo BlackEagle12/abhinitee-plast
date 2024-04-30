@@ -1,0 +1,71 @@
+.contact-us-map-container{
+
+    iframe{
+        width: 100vw;
+        height: 500px;
+        border:0; 
+    }
+}
+
+.contact-us-contect-cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -55px;
+
+    .contact-us-contect-cards-content{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contect-card{
+        width: 30%;
+        height: 110px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        display: flex;
+        transition-duration: 1s;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        background-color: black;
+        color: white;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-duration: 1s;
+    }
+
+    .contact-info{
+        width: 75%;
+        background-color: #fff;
+    }
+
+    .contact-info-heading{
+        font-family: "Kanit", sans-serif;
+        font-size: 13px;
+        font-weight: 800;
+        color: #00000080;
+        margin: 10px;
+        letter-spacing: 1px;
+    }
+
+    .contact-info-text{
+        margin: 10px;
+        font-family: "Abel", sans-serif;
+        font-size: 17px;
+    }
+
+    .contect-card:hover{
+        border: 1px solid #b8aa83;
+        
+        .contact-icon{
+            background-color: #b8aa83;
+        }
+    }
+}

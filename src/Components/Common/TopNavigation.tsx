@@ -21,24 +21,24 @@ function TopNavigation() {
         {
             name : "Gallery", 
             isActive : false, 
-            url : "gallery"
+            url : "/gallery"
         },
         {
             name : "Our Clients", 
             isActive : false, 
-            url : "clients"
+            url : "/clients"
         },
         {
             name : "Contect Us", 
             isActive : false, 
-            url : "contact"
+            url : "/contact"
         }
     ])
 
     return (
         <div className='top-nav-content'>
             <div className='top-nav-logo'>
-                <img src='' alt='logo'/>
+                <img src='src/assets/logo/abhinidhi-logo.webp' alt='logo'/>
             </div>
             <div className='top-nav-right-pannel'>
                 <div className='top-nav-slogan'>
