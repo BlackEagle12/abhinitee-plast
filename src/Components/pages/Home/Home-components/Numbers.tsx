@@ -5,23 +5,23 @@ function Numbers(props) {
     const [numbers, setNumbers] = useState([
         {
             Image: "src/assets/numbers/icon1.webp",
-            Number: 250,
-            Description: "APARTments"
+            Number: 20,
+            Description: "Molding Machine"
         },
         {
             Image: "src/assets/numbers/icon2.webp",
-            Number: 350,
-            Description: "COMMERCIAL PROJECTS"
+            Number: 10,
+            Description: "POWDER COATING Tools"
         },
         {
             Image: "src/assets/numbers/icon3.webp",
             Number: 25,
-            Description: "SPORTS COMPLEX"
+            Description: "PAINTING Tools"
         },
         {
             Image: "src/assets/numbers/icon4.webp",
-            Number: 200,
-            Description: "RESORTS & ENCLOSURES"
+            Number: 100,
+            Description: "TOOL DESIGN"
         }
     ])
 

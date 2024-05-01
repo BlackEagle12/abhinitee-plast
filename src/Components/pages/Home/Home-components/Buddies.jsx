@@ -5,23 +5,33 @@ function Buddies(props) {
     const [buddies, setBuddies] = useState([
         {
             Image : "src/assets/Buddy/buddy.webp",
-            Name: "Mitchell Tucker",
-            Designation: "Director"
+            Name: "Jitendra Ingale",
+            Designation: "CEO & Director (DME,BE Mech, M-CADCAM-CITD )"
         },
         {
             Image : "src/assets/Buddy/buddy.webp",
-            Name: "Stuart Wise",
-            Designation: "Production Manager"
+            Name: "Amit Sali",
+            Designation: "Technical Director (DME,BE Mech)"
         },
         {
             Image : "src/assets/Buddy/buddy.webp",
-            Name: "Nicholas Hanson",
-            Designation: "Chief Engineer"
+            Name: "Mangesh Thorat",
+            Designation: "Technical Director (DME,BE Mech)"
         },
         {
             Image : "src/assets/Buddy/buddy.webp",
-            Name: "Melvin Jensen",
-            Designation: "Chief Engineer"
+            Name: "Niteen Jadhav",
+            Designation: "Technical Director (DME,BE Mech)"
+        },
+        {
+            Image : "src/assets/Buddy/buddy.webp",
+            Name: "Vidula Aher",
+            Designation: "Technical Director (DME,BE Mech)"
+        },
+        {
+            Image : "src/assets/Buddy/buddy.webp",
+            Name: "Harish Shrirao",
+            Designation: "Technical Director (DME,BE Mech)"
         }
     ])
 

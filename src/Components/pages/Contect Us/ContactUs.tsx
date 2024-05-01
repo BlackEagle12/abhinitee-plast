@@ -1,5 +1,7 @@
 import React from 'react';
 import ContactUsContactCards from './ContactUs-components/ContactUsContactCards';
+import ContactUsForm from './ContactUs-components/ContactUsForm';
+import Footer from '../../Common/Footer';
 
 function ContactUs(props) {
     return (
@@ -11,7 +13,14 @@ function ContactUs(props) {
             <div className="contact-us-contect-cards-container">
                 <ContactUsContactCards />
             </div>
+
+            <div className="contact-us-contect-form-container">
+                <ContactUsForm />
+            </div>
         
+            <div className="footer-container">
+                <Footer />
+            </div>
         </>
     );
 }

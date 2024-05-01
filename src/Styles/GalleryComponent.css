@@ -1,0 +1,25 @@
+.gallery-component-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.gallery-component-content {
+		width: 80%;
+	}
+
+	.ReactGridGallery_tile-viewport {
+		box-sizing: border-box;
+		/* border: 2px solid black; */
+
+        box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+        border-radius: 10px;
+
+        img{
+            border-radius: 10px;
+        }
+	}
+
+    .ReactGridGallery_tile{
+        border-radius: 10px;
+    }
+}

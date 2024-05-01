@@ -7,6 +7,7 @@ import AboutUs from './Components/pages/About Us/AboutUs'
 import ContactUs from './Components/pages/Contect Us/ContactUs'
 import NoPage from './Components/pages/No Page/NoPage'
 import Product from './Components/pages/Products/Product'
+import GalleryComponent from './Components/pages/Gallery/GalleryComponent'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                 <Route path="about" element={<AboutUs />} />
                 <Route path="product" element={<Product />} />
                 <Route path="contact" element={<ContactUs />} />
+                <Route path="gallery" element={<GalleryComponent />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
         </BrowserRouter>

@@ -28,7 +28,7 @@ function AboutUs(props) {
 
             <div className="about-us-contact-button-container">
                 <Link to="/contact">
-                    <button className='about-us-contact-button'> Contact us </button>
+                    <button className='common-button'> Contact us </button>
                 </Link>
             </div>
 

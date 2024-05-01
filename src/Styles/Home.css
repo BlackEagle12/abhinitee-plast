@@ -210,6 +210,13 @@
     }
 }
 
+.home-services-button-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
 .home-quality-inovation-container{
     display: flex;
     justify-content: center;
@@ -373,11 +380,13 @@
         width: 80%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .buddy-card-one-container{
         padding: 20px;
+        width: 30%;
     }
 }
 

@@ -11,8 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    top: -55px;
+    background-color: rgba(0, 0, 0, 0.05);;
 
     .contact-us-contect-cards-content{
         width: 80%;
@@ -28,6 +27,8 @@
         border: 1px solid black;
         display: flex;
         transition-duration: 1s;
+        position: relative;
+        top: -55px;
     }
     
     .contact-icon{
@@ -68,4 +69,85 @@
             background-color: #b8aa83;
         }
     }
+}
+
+.contact-us-contect-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.05);
+
+    .contact-us-contect-form-content{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        padding: 100px 0;
+    }
+
+    .user-action-message{
+        width: 20%;
+    }
+
+    .action-message-heading{
+        font-family: "Kanit", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .action-message{
+        font-family: "Abel", sans-serif;
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .user-contect-form{
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .input-field, .input-field-textarea{
+        width: 40%;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+        height: 50px;
+        padding-top: 10px;
+        transition-duration: 300ms;
+    }
+    
+    .input-field-textarea{
+        width: 87%;
+        height: unset;
+        align-items: flex-start;
+        padding-top: 30px;
+    }
+    
+    .input-field-icon{
+        width: 30px;
+    }
+    
+    input, textarea{
+        border: none;
+        outline: none;
+        width: 100%;
+        font-family: "Abel", sans-serif;
+        font-size: 15px;
+        background-color: transparent;
+        letter-spacing: 0.5px;
+    }
+
+    input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+        color: black; /*Change the placeholder color*/
+    }
+
+   .submit-button{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+   }
 }

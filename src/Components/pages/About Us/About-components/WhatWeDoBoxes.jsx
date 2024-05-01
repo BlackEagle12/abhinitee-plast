@@ -5,7 +5,7 @@ function WhatWeDoBoxes(props) {
     const [boxContentList, setBoxContentList] =useState([
         {
             Heading: "Research & ESTIMATE",
-            Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+            Description: "At our plastic manufacturing facility, we prioritize research and accurate estimation to ensure efficient production processes. Our dedicated team conducts thorough research to identify innovative solutions and optimize manufacturing techniques. With precise estimation methods, we deliver cost-effective solutions tailored to meet the specific needs of our clients, resulting in high-quality products and satisfied customers"
         },
         {
             Heading: "EXECUTE & COMPLETE",

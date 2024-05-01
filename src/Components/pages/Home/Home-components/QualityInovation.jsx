@@ -11,7 +11,7 @@ function QualityInovation(props) {
                     <div className="heading">Innovative</div>
                     <div className="slogan">Empowering your vision with plastic precision.</div>
                     <p className="description">
-                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        We are dedicated to providing exceptional quality service to our clients in the plastic industry. With a focus on excellence and precision, we ensure that every project meets the highest standards of quality and satisfaction.
                     </p>
                 </div>
             </div>
@@ -20,7 +20,7 @@ function QualityInovation(props) {
                     <div className="heading">Quality</div>
                     <div className="slogan">Quality is pride of workmanship.</div>
                     <p className="description">
-                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        We thrive on innovation. As pioneers in the plastic industry, we constantly push boundaries, exploring new materials and technologies to deliver cutting-edge solutions that meet the evolving needs of our clients.
                     </p>
                 </div>
                 <div className="char-image">

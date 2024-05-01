@@ -4,12 +4,6 @@ import React, { useEffect, useState } from 'react';
 
 
 function HomeSlider(props) {
-
-    let slides = [
-        'src/assets/Slider/slider-1.jpg',
-        'src/assets/Slider/slider-2.jpg',
-    ];
-
     let [index, setIndex] = useState(0);
     
     useEffect(() => {
@@ -72,7 +66,7 @@ function HomeSlider(props) {
                             </div>
                         </div>
                     </div>
-                    <img src='src/assets/Slider/slider-1.jpg'></img>
+                    <img src='src/assets/Slider/slide-1.webp'></img>
                 </div>
 
                 <div className='slide-two'>
@@ -82,7 +76,7 @@ function HomeSlider(props) {
                             <div className='home-slider-slide-two-content-sub-heading'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, vel! </div>
                         </div>
                     </div>
-                    <img src='src/assets/Slider/slider-2.jpg'></img>
+                    <img src='src/assets/Slider/slide-2.webp'></img>
                 </div>
             </div>
             <div className='icon right-arrow'>

@@ -4,7 +4,7 @@ function IndustrySkills(props) {
     return (
         <div className='industry-skills-content'>
             <div className="industry-skills-image">
-                <img src="src/assets/plastic-bottle/bottles.webp" alt="" />
+                <img src="src/assets/product-images/Precision Machining.webp" alt="" />
             </div>
             <div className="industry-skills-data">
                 <div className="heading">Why to choose us?</div>

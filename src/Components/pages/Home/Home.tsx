@@ -9,45 +9,40 @@ import Buddies from "./Home-components/Buddies";
 import ClientFeedBackCorisal from "./Home-components/ClientFeedBackCorisal";
 import Clients from "./Home-components/Clients";
 import Footer from "../../Common/Footer";
+import { Link } from "react-router-dom";
 
 function Home(props) {
 	let [homeProducts, setHomeProducts] = useState([
 		{
-			Name: "name-1",
-			Image: "src/assets/product-images/plastic-pipes.webp",
+			Name: "Molding Machine",
+			Image: "src/assets/product-images/Molding Machine.webp",
 			Description:
-				"Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+				"Efficiently produce high-quality plastic components with our advanced molding machines, ensuring precision and consistency in every product.",
 		},
 		{
-			Name: "name-2",
-			Image: "src/assets/product-images/plastic-pipes.webp",
+			Name: "FIRE WALL STATION",
+			Image: "src/assets/product-images/FIRE WALL STATION.webp",
 			Description:
-				"Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+				"Safeguard your plastic manufacturing facility with our state-of-the-art fire wall station, providing reliable protection against fire hazards to ensure uninterrupted operations.",
 		},
 		{
-			Name: "name-1",
-			Image: "src/assets/product-images/plastic-pipes.webp",
+			Name: "Paint Shop",
+			Image: "src/assets/product-images/Paint Shop.webp",
 			Description:
-				"Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+				"Elevate the aesthetics of your plastic products with our cutting-edge paint shop, offering precision coating solutions that enhance durability and visual appeal.",
 		},
 		{
-			Name: "name-2",
-			Image: "src/assets/product-images/plastic-pipes.webp",
+			Name: "Powder Coating",
+			Image: "src/assets/product-images/Powder Coating.webp",
 			Description:
-				"Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+				"Enhance the durability and aesthetics of your plastic components with our advanced powder coating services, providing a seamless and long-lasting finish for a wide range of applications.",
 		},
 		{
-			Name: "name-1",
-			Image: "src/assets/product-images/plastic-pipes.webp",
+			Name: "Tool Design",
+			Image: "src/assets/product-images/Tool Design.webp",
 			Description:
-				"Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-		},
-		{
-			Name: "name-2",
-			Image: "src/assets/product-images/plastic-pipes.webp",
-			Description:
-				"Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-		},
+				"Optimize the production process of your plastic components with our expert tool design services, tailored to ensure efficiency, precision, and cost-effectiveness.",
+		}
 	]);
 	return (
 		<>
@@ -58,7 +53,7 @@ function Home(props) {
 				<SectionHeading
 					backgroundText="Plast"
 					headingText1="our"
-					headingText2="products"
+					headingText2="services"
 				/>
 			</div>
 			<div className="our-products-container">
@@ -76,14 +71,21 @@ function Home(props) {
 						))}
 				</div>
 			</div>
+
+			<div className="home-services-button-container">
+                <Link to="/services">
+                    <button className='common-button'> See More </button>
+                </Link>
+            </div>
+
 			<div className="home-numbers-container">
 				<Numbers />
 			</div>
 			<div className="section-heading-container">
 				<SectionHeading
 					backgroundText="Plast"
-					headingText1="CONTEMPORARY AND"
-					headingText2="STYLISH"
+					headingText1="quality AND"
+					headingText2="inovation"
 				/>
 			</div>
 			<div className="home-quality-inovation-container">
