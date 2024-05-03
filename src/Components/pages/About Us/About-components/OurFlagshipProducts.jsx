@@ -3,22 +3,41 @@ import React, { useState } from 'react';
 function OurFlagshipProducts(props) {
     let [productList, setProductList] = useState([
         {
-            Image:"src/assets/product-images/plastic-pipes.webp",
+            Image:"src/assets/product-images/Expert-1.webp",
             Name: "plastic pipes",
             Title: "Vestibulum in enim ac augue"
         },
         {
-            Image:"src/assets/product-images/plastic-pipes.webp",
+            Image:"src/assets/product-images/Expert-2.webp",
             Name: "plastic pipes",
             Title: "Vestibulum in enim ac augue"
         },
         {
-            Image:"src/assets/product-images/plastic-pipes.webp",
+            Image:"src/assets/product-images/Expert-3.webp",
             Name: "plastic pipes",
             Title: "Vestibulum in enim ac augue"
         },
         {
-            Image:"src/assets/product-images/plastic-pipes.webp",
+            Image:"src/assets/product-images/Expert-4.webp",
+            Name: "plastic pipes",
+            Title: "Vestibulum in enim ac augue"
+        },
+        {
+            Image:"src/assets/product-images/Expert-5.webp",
+            Name: "plastic pipes",
+            Title: "Vestibulum in enim ac augue"
+        },
+        {
+            Image:"src/assets/product-images/Expert-6.webp",
+            Name: "plastic pipes",
+            Title: "Vestibulum in enim ac augue"
+        },
+        {
+            Image:"src/assets/product-images/Expert-7.webp",
+            Name: "plastic pipes",
+            Title: "Vestibulum in enim ac augue"
+        },{
+            Image:"src/assets/product-images/Expert-8.webp",
             Name: "plastic pipes",
             Title: "Vestibulum in enim ac augue"
         }
@@ -30,10 +49,10 @@ function OurFlagshipProducts(props) {
                     <div className="product-image">
                         <img src={product.Image} alt="" />
                     </div>
-                    <div className="product-info">
+                    {/* <div className="product-info">
                         <div className="product-name">{product.Name}</div>
                         <div className="product-title">{product.Title}</div>
-                    </div>
+                    </div> */}
                 </div>
             ))}
         </div>

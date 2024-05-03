@@ -8,6 +8,7 @@ import ContactUs from './Components/pages/Contect Us/ContactUs'
 import NoPage from './Components/pages/No Page/NoPage'
 import Product from './Components/pages/Products/Product'
 import GalleryComponent from './Components/pages/Gallery/GalleryComponent'
+import ComminSoon from './Components/pages/Comming Soon/CommingSoon'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
                 <Route path="product" element={<Product />} />
                 <Route path="contact" element={<ContactUs />} />
                 <Route path="gallery" element={<GalleryComponent />} />
+                <Route path="clients" element={<ComminSoon />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
         </BrowserRouter>

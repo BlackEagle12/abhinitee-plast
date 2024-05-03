@@ -5,15 +5,15 @@ function WhatWeDoBoxes(props) {
     const [boxContentList, setBoxContentList] =useState([
         {
             Heading: "Research & ESTIMATE",
-            Description: "At our plastic manufacturing facility, we prioritize research and accurate estimation to ensure efficient production processes. Our dedicated team conducts thorough research to identify innovative solutions and optimize manufacturing techniques. With precise estimation methods, we deliver cost-effective solutions tailored to meet the specific needs of our clients, resulting in high-quality products and satisfied customers"
+            Description: "At our plastic manufacturing facility, we focus on thorough research and precise estimation. By staying informed about industry trends, we provide accurate project estimates, optimizing resource allocation and delivering tailored solutions for our clients"
         },
         {
             Heading: "EXECUTE & COMPLETE",
-            Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+            Description: "We excel in executing and completing plastic manufacturing projects efficiently and on schedule. Our dedicated team ensures that every aspect of the project is handled with precision and attention to detail, resulting in high-quality outcomes and satisfied clients."
         },
         {
             Heading: "EXCEEDING EXPECTATIONS",
-            Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+            Description: "We consistently exceed expectations in plastic manufacturing, delivering superior results with meticulous attention to detail and a focus on quality and service."
         }
     ])
     return (

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function NoPage(props) {
+function ComminSoon(props) {
     return (
-        <div className="no-page-content">
+        <div className="comming-soon-page-content">
             <div className="about">
             <a className="bg_links social portfolio" href="https://www.rafaelalucas.com" target="_blank">
                 <span className="icon"></span>
@@ -52,14 +52,14 @@ function NoPage(props) {
                                 </div>
                             </div>
 
-                            <p className="p404" data-depth="0.50">404</p>
-                            <p className="p404" data-depth="0.10">404</p>
+                            <p className="p404" data-depth="0.50">Comming Soon</p>
+                            <p className="p404" data-depth="0.10">Comming Soon</p>
 
                         </div>
 
                         <div className="text">
                             <article>
-                                <p>Uh oh! Looks like you got lost. <br />Go back to the homepage!</p>
+                                <p>Coming soon! Get ready for something amazing. Stay tuned for updates.</p>
                                 <Link to="/"> <button>Home Page!</button> </Link>
                             </article>
                         </div>
@@ -70,4 +70,4 @@ function NoPage(props) {
     );
 }
 
-export default NoPage;
+export default ComminSoon;

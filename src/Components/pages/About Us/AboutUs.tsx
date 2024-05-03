@@ -39,8 +39,8 @@ function AboutUs(props) {
             <div className="section-heading-container">
 				<SectionHeading
 					backgroundText="Plast"
-					headingText1="OUR FLAGSHIP"
-					headingText2="PRODUCTS"
+					headingText1="OUR"
+					headingText2="Expertise"
 				/>
 			</div>
 

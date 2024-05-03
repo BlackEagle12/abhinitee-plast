@@ -326,3 +326,85 @@
     background-color: black;
     text-transform: capitalize;
 }
+
+.our-product-card-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .product-image{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            aspect-ratio: 2/2;
+            transition-duration: 2s;
+        }   
+    }
+
+    &:hover .product-image img{
+        scale: 1.2;
+    }
+
+    .product-image-info{
+        width: 80%;
+        background-color: white;
+        position: relative;
+        top: -80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .product-info{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .product-image-name{
+        font-family: "Kanit", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .product-image-description{
+        font-family: "Abel", sans-serif;
+        font-size: 18px;
+    }
+
+    .product-index{
+        font-family: "Kanit", sans-serif;
+        font-size: 100px;
+        font-weight: 400;
+        color: #D1D1D1;
+    }
+
+    .small-saperator{
+        width: 50px;
+        height: 2px;
+        background-color: #b8aa83;
+        margin-bottom: 20px;
+    }
+
+    .product-name{
+        font-family: "Kanit", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .product-description{
+        font-family: "Abel", sans-serif;
+        font-size: 17px;
+        color: #b8aa83;
+    }
+}

@@ -135,17 +135,14 @@
     
     .our-products-content{
         display: flex;
-        align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        width: 80%;
-
+        width: 90%;
     }
 
     .our-products-item{
-        padding: 20px;
-        padding-top: 0;
         width: 30%;
+        min-width: 300px;
     }
 }
 

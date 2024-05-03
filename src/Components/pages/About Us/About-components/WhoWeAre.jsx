@@ -19,7 +19,7 @@ function WhoWeAre(props) {
                     </div>
                 </div>
                 <div className="who-we-are-description">
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur</p>
+                    <p>We specialize in manufacturing, supplying, and exporting automotive molded products and components from our facility located in Pune, Maharashtra, India. Our products, including automotive sensors, lighting, electronics, switches, and TPE rubber replacements, find applications in various automotive industries. With a total of nine reliable injection molding machines, we process technical and high-performance materials to ensure exceptional quality. At our facility, we prioritize in-house toolmaking, believing that the quality of an injection-molded part is directly linked to the quality of its tooling.</p>
                 </div>
                 <div className="abhinitee-plast-logo">
                     <img src="src/assets/logo/abhinidhi-logo.webp" alt="" />
