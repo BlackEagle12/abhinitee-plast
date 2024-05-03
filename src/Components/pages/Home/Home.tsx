@@ -33,7 +33,7 @@ function Home(props) {
 		},
 		{
 			Name: PaintShop,
-			Image: "src/assets/product-images/Paint Shop.webp",
+			Image: PaintShop,
 			Description:
 				"Elevate the aesthetics of your plastic products with our cutting-edge paint shop, offering precision coating solutions that enhance durability and visual appeal.",
 		},
