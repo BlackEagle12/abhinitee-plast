@@ -23,7 +23,7 @@ function App() {
                 <Route path="/contact" element={<ContactUs />} />
                 <Route path="/gallery" element={<GalleryComponent />} />
                 <Route path="/clients" element={<ComminSoon />} />
-                <Route path="*" element={<NoPage />} />
+                <Route path="/*" render={() => (<Redirect to="/" />)} />
             </Routes>
         </BrowserRouter>
   )
