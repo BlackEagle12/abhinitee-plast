@@ -377,13 +377,13 @@
         width: 80%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         flex-wrap: wrap;
     }
 
     .buddy-card-one-container{
-        padding: 20px;
         width: 30%;
+        min-width: 300px;
     }
 }
 
