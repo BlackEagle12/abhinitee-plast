@@ -1,10 +1,11 @@
 import React from 'react';
+import PrecisionMachining from '../../../../assets/product-images/Precision Machining.webp'
 
 function IndustrySkills(props) {
     return (
         <div className='industry-skills-content'>
             <div className="industry-skills-image">
-                <img src="src/assets/product-images/Precision Machining.webp" alt="" />
+                <img src={PrecisionMachining} alt="" />
             </div>
             <div className="industry-skills-data">
                 <div className="heading">Why to choose us?</div>

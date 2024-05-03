@@ -1,9 +1,9 @@
 import React from 'react';
-import client1 from '../../../../assets/Clients/client-1.web'
-import client2 from '../../../../assets/Clients/client-2.web'
-import client3 from '../../../../assets/Clients/client-3.web'
-import client4 from '../../../../assets/Clients/client-4.web'
-import client5 from '../../../../assets/Clients/client-5.web'
+import client1 from '../../../../assets/Clients/client-1.webp'
+import client2 from '../../../../assets/Clients/client-2.webp'
+import client3 from '../../../../assets/Clients/client-3.webp'
+import client4 from '../../../../assets/Clients/client-4.webp'
+import client5 from '../../../../assets/Clients/client-5.webp'
 
 function Clients(props) {
     return (
