@@ -10,36 +10,42 @@ import ClientFeedBackCorisal from "./Home-components/ClientFeedBackCorisal";
 import Clients from "./Home-components/Clients";
 import Footer from "../../Common/Footer";
 import { Link } from "react-router-dom";
+import MoldingMachine from '../../../assets/product-images/Molding Machine.webp'
+import ToolDesign from '../../../assets/product-images/Tool Design.webp'
+import PowderCoating from '../../../assets/product-images/Powder Coating.webp'
+import PaintShop from '../../../assets/product-images/Paint Shop.webp'
+import FIREWALLSTATION from '../../../assets/product-images/FIRE WALL STATION.webp'
+
 
 function Home(props) {
 	let [homeProducts, setHomeProducts] = useState([
 		{
 			Name: "Molding Machine",
-			Image: "src/assets/product-images/Molding Machine.webp",
+			Image: MoldingMachine,
 			Description:
 				"Efficiently produce high-quality plastic components with our advanced molding machines, ensuring precision and consistency in every product.",
 		},
 		{
 			Name: "FIRE WALL STATION",
-			Image: "src/assets/product-images/FIRE WALL STATION.webp",
+			Image: FIREWALLSTATION,
 			Description:
 				"Safeguard your plastic manufacturing facility with our state-of-the-art fire wall station, providing reliable protection against fire hazards to ensure uninterrupted operations.",
 		},
 		{
-			Name: "Paint Shop",
+			Name: PaintShop,
 			Image: "src/assets/product-images/Paint Shop.webp",
 			Description:
 				"Elevate the aesthetics of your plastic products with our cutting-edge paint shop, offering precision coating solutions that enhance durability and visual appeal.",
 		},
 		{
 			Name: "Powder Coating",
-			Image: "src/assets/product-images/Powder Coating.webp",
+			Image: PowderCoating,
 			Description:
 				"Enhance the durability and aesthetics of your plastic components with our advanced powder coating services, providing a seamless and long-lasting finish for a wide range of applications.",
 		},
 		{
 			Name: "Tool Design",
-			Image: "src/assets/product-images/Tool Design.webp",
+			Image: ToolDesign,
 			Description:
 				"Optimize the production process of your plastic components with our expert tool design services, tailored to ensure efficiency, precision, and cost-effectiveness.",
 		}
