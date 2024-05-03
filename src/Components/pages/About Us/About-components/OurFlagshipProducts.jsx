@@ -1,43 +1,51 @@
 import React, { useState } from 'react';
+import Export1 from '../../../../assets/product-images/Expert-1.webp'
+import Export2 from '../../../../assets/product-images/Expert-2.webp'
+import Export3 from '../../../../assets/product-images/Expert-3.webp'
+import Export4 from '../../../../assets/product-images/Expert-4.webp'
+import Export5 from '../../../../assets/product-images/Expert-5.webp'
+import Export6 from '../../../../assets/product-images/Expert-6.webp'
+import Export7 from '../../../../assets/product-images/Expert-7.webp'
+import Export8 from '../../../../assets/product-images/Expert-8.webp'
 
 function OurFlagshipProducts(props) {
     let [productList, setProductList] = useState([
         {
-            Image:"src/assets/product-images/Expert-1.webp",
+            Image: Export1,
             Name: "plastic pipes",
             Title: "Vestibulum in enim ac augue"
         },
         {
-            Image:"src/assets/product-images/Expert-2.webp",
+            Image: Export2,
             Name: "plastic pipes",
             Title: "Vestibulum in enim ac augue"
         },
         {
-            Image:"src/assets/product-images/Expert-3.webp",
+            Image: Export3,
             Name: "plastic pipes",
             Title: "Vestibulum in enim ac augue"
         },
         {
-            Image:"src/assets/product-images/Expert-4.webp",
+            Image: Export4,
             Name: "plastic pipes",
             Title: "Vestibulum in enim ac augue"
         },
         {
-            Image:"src/assets/product-images/Expert-5.webp",
+            Image: Export5,
             Name: "plastic pipes",
             Title: "Vestibulum in enim ac augue"
         },
         {
-            Image:"src/assets/product-images/Expert-6.webp",
+            Image: Export6,
             Name: "plastic pipes",
             Title: "Vestibulum in enim ac augue"
         },
         {
-            Image:"src/assets/product-images/Expert-7.webp",
+            Image: Export7,
             Name: "plastic pipes",
             Title: "Vestibulum in enim ac augue"
         },{
-            Image:"src/assets/product-images/Expert-8.webp",
+            Image: Export8,
             Name: "plastic pipes",
             Title: "Vestibulum in enim ac augue"
         }

@@ -1,6 +1,7 @@
 import { faChevronLeft, faChevronRight, faPhone } from '@fortawesome/fontawesome-free-solid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
+import Slide2 from '../../../../assets/Slider/slide-2.webp'
 
 
 function HomeSlider(props) {
@@ -76,7 +77,7 @@ function HomeSlider(props) {
                             <div className='home-slider-slide-two-content-sub-heading'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, vel! </div>
                         </div>
                     </div>
-                    <img src='src/assets/Slider/slide-2.webp'></img>
+                    <img src={Slide2}></img>
                 </div>
             </div>
             <div className='icon right-arrow'>
