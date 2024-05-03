@@ -18,11 +18,11 @@ function App() {
             </div>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="about" element={<AboutUs />} />
-                <Route path="product" element={<Product />} />
-                <Route path="contact" element={<ContactUs />} />
-                <Route path="gallery" element={<GalleryComponent />} />
-                <Route path="clients" element={<ComminSoon />} />
+                <Route path="/about" element={<AboutUs />} />
+                <Route path="/product" element={<Product />} />
+                <Route path="/contact" element={<ContactUs />} />
+                <Route path="/gallery" element={<GalleryComponent />} />
+                <Route path="/clients" element={<ComminSoon />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
         </BrowserRouter>
