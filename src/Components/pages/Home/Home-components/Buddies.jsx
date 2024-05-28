@@ -1,38 +1,39 @@
 import React, { useState } from 'react';
 import BuddyCardOne from '../../../Common/BuddyCardOne';
+import buddy from '../../../../assets/Buddy/buddy.webp'
 
 function Buddies(props) {
     const [buddies, setBuddies] = useState([
         {
-            Image : "src/assets/Buddy/buddy.webp",
+            Image : buddy,
             Name: "Jitendra Ingale",
             Designation: "CEO & Director (DME,BE Mech, M-CADCAM-CITD )"
         },
         {
-            Image : "src/assets/Buddy/buddy.webp",
+            Image : buddy,
             Name: "Amit Sali",
             Designation: "Technical Director (DME,BE Mech)"
         },
         {
-            Image : "src/assets/Buddy/buddy.webp",
+            Image : buddy,
             Name: "Mangesh Thorat",
             Designation: "Technical Director (DME,BE Mech)"
         },
         {
-            Image : "src/assets/Buddy/buddy.webp",
+            Image : buddy,
             Name: "Niteen Jadhav",
             Designation: "Technical Director (DME,BE Mech)"
         },
         {
-            Image : "src/assets/Buddy/buddy.webp",
+            Image : buddy,
             Name: "Harish Shrirao",
             Designation: "Technical Director (DME,BE Mech)"
-        },
+        }
         {
-            Image : "src/assets/Buddy/buddy.webp",
+            Image : buddy,
             Name: "Vidula Aher",
             Designation: "Technical Director (DME,BE Mech)"
-        }
+        },
     ])
 
     return (

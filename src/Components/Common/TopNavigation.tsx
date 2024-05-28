@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
+import Logo from '../../assets/logo/abhinidhi-logo.webp'
+import DesBadlega from '../../assets/top-nav/ye-desh-badlegapng.png'
 
 function TopNavigation() {
 	let [menuList, SetMenuList] = useState([
@@ -44,7 +46,7 @@ function TopNavigation() {
 			<div className="top-nav-right-pannel">
 				<div className="top-nav-slogan">
 					<img
-						src="src/assets/top-nav/ye-desh-badlegapng.png"
+						src={DesBadlega}
 						alt="slogan"
 					></img>
 				</div>
@@ -63,7 +65,7 @@ function TopNavigation() {
 				</div>
 			</div>
 			<div className="top-nav-logo">
-				<img src="src/assets/logo/abhinidhi-logo.webp" alt="logo" />
+				<img src={Logo} alt="logo" />
 			</div>
 		</div>
 	);

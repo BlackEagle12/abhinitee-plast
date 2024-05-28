@@ -152,7 +152,7 @@
     justify-content: space-around;
     width: 100%;
     min-height: 500px;
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('src/assets/numbers/background.webp');
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../../src/assets/numbers/background.webp');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -390,7 +390,7 @@
 
 .client-feedback-corisal-container{
     width: 100vw;
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('src/assets/machine/machine-1.webp');
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../src/assets/machine/machine-1.webp');
     background-size:cover;
     display: flex;
     align-items: center;
