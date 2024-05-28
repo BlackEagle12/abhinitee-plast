@@ -169,9 +169,10 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 20%;
 
         img{
-            width: 60%;
+            width: 40%;
         }
     }
 
@@ -189,7 +190,7 @@
         content: "";
         height: 2px;
         width: 40px;
-        background-color: #b8aa83;
+        background-color: #3498db;
         position: absolute;
         margin: -10px 0;
         transition-duration: 1s;
@@ -267,7 +268,7 @@
         font-family: "Kanit", sans-serif;
         font-size: 18px;
         color: white;
-        background-color: #b8aa83;
+        background-color: #3498db;
         width: max-content;
         padding: 2px 4px;
         cursor: pointer;
@@ -316,7 +317,7 @@
         justify-content: space-around;
         flex-direction: column;
         height: 100%;
-        background-color: #b8aa83;
+        background-color: #3498db;
         color: white;
     }
 

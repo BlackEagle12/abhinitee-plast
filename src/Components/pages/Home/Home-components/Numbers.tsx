@@ -10,18 +10,18 @@ function Numbers(props) {
         },
         {
             Image: "src/assets/numbers/icon2.webp",
-            Number: 10,
-            Description: "POWDER COATING Tools"
+            Number: 7,
+            Description: "Bi-metallic barrel machine"
         },
         {
             Image: "src/assets/numbers/icon3.webp",
-            Number: 25,
-            Description: "PAINTING Tools"
+            Number: 7,
+            Description: "eight zone HRS controller"
         },
         {
             Image: "src/assets/numbers/icon4.webp",
             Number: 100,
-            Description: "TOOL DESIGN"
+            Description: "TOOL Room"
         }
     ])
 

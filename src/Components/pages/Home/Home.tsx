@@ -25,18 +25,18 @@ function Home(props) {
 			Description:
 				"Safeguard your plastic manufacturing facility with our state-of-the-art fire wall station, providing reliable protection against fire hazards to ensure uninterrupted operations.",
 		},
-		{
-			Name: "Paint Shop",
-			Image: "src/assets/product-images/Paint Shop.webp",
-			Description:
-				"Elevate the aesthetics of your plastic products with our cutting-edge paint shop, offering precision coating solutions that enhance durability and visual appeal.",
-		},
-		{
-			Name: "Powder Coating",
-			Image: "src/assets/product-images/Powder Coating.webp",
-			Description:
-				"Enhance the durability and aesthetics of your plastic components with our advanced powder coating services, providing a seamless and long-lasting finish for a wide range of applications.",
-		},
+		// {
+		// 	Name: "Paint Shop",
+		// 	Image: "src/assets/product-images/Paint Shop.webp",
+		// 	Description:
+		// 		"Elevate the aesthetics of your plastic products with our cutting-edge paint shop, offering precision coating solutions that enhance durability and visual appeal.",
+		// },
+		// {
+		// 	Name: "Powder Coating",
+		// 	Image: "src/assets/product-images/Powder Coating.webp",
+		// 	Description:
+		// 		"Enhance the durability and aesthetics of your plastic components with our advanced powder coating services, providing a seamless and long-lasting finish for a wide range of applications.",
+		// },
 		{
 			Name: "Tool Design",
 			Image: "src/assets/product-images/Tool Design.webp",

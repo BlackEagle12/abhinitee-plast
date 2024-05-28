@@ -25,12 +25,12 @@ function Buddies(props) {
         },
         {
             Image : "src/assets/Buddy/buddy.webp",
-            Name: "Vidula Aher",
+            Name: "Harish Shrirao",
             Designation: "Technical Director (DME,BE Mech)"
         },
         {
             Image : "src/assets/Buddy/buddy.webp",
-            Name: "Harish Shrirao",
+            Name: "Vidula Aher",
             Designation: "Technical Director (DME,BE Mech)"
         }
     ])
