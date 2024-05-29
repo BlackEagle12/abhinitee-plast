@@ -1,39 +1,44 @@
 import React, { useState } from 'react';
 import BuddyCardOne from '../../../Common/BuddyCardOne';
-import buddy from '../../../../assets/Buddy/buddy.webp'
+import amit from '../../../../assets/Buddy/amit sali.webp'
+import harish from '../../../../assets/Buddy/Mr.HarishShrirao.webp'
+import jitu from '../../../../assets/Buddy/Mr.JitendraIngale.webp'
+import nitin from '../../../../assets/Buddy/Mr.NiteenJadhav.webp'
+import vidhu from '../../../../assets/Buddy/vidhulaaahir.webp'
+import mangu from '../../../../assets/Buddy/Mr.MangeshThorat2.webp'
 
 function Buddies(props) {
     const [buddies, setBuddies] = useState([
         {
-            Image : buddy,
+            Image : jitu,
             Name: "Jitendra Ingale",
             Designation: "CEO & Director (DME,BE Mech, M-CADCAM-CITD )"
         },
         {
-            Image : buddy,
+            Image : amit,
             Name: "Amit Sali",
             Designation: "Technical Director (DME,BE Mech)"
         },
         {
-            Image : buddy,
+            Image : mangu,
             Name: "Mangesh Thorat",
             Designation: "Technical Director (DME,BE Mech)"
         },
         {
-            Image : buddy,
+            Image : nitin,
             Name: "Niteen Jadhav",
             Designation: "Technical Director (DME,BE Mech)"
         },
         {
-            Image : buddy,
+            Image : harish,
             Name: "Harish Shrirao",
             Designation: "Technical Director (DME,BE Mech)"
-        }
+        },
         {
-            Image : buddy,
+            Image : vidhu,
             Name: "Vidula Aher",
             Designation: "Technical Director (DME,BE Mech)"
-        },
+        }
     ])
 
     return (

@@ -1,0 +1,9 @@
+.tool-room-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .tool-room-content{
+        width: 80%;
+    }
+}

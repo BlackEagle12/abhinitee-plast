@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import Logo from '../../assets/logo/abhinidhi-logo.webp'
 import DesBadlega from '../../assets/top-nav/ye-desh-badlegapng.png'
@@ -7,7 +7,7 @@ function TopNavigation() {
 	let [menuList, SetMenuList] = useState([
 		{
 			name: "Home",
-			isActive: true,
+			isActive: false,
 			url: "/",
 		},
 		{
@@ -15,10 +15,20 @@ function TopNavigation() {
 			isActive: false,
 			url: "/about",
 		},
+        {
+			name: "Tool Room",
+			isActive: false,
+			url: "/tools",
+		},
 		{
 			name: "Products",
 			isActive: false,
 			url: "/product",
+		},
+        {
+			name: "Facilities",
+			isActive: false,
+			url: "/facilities",
 		},
 		{
 			name: "Gallery",
@@ -37,6 +47,23 @@ function TopNavigation() {
 		},
 	]);
 
+    const setActiveMenu = (url) => {        
+        let newMenuList = [...menuList]
+        newMenuList.forEach((menu) => {
+            if(menu.url === url){
+                menu.isActive = true
+            }
+            else{
+                menu.isActive = false
+            }
+        })
+
+        SetMenuList(newMenuList)
+    }
+
+    useEffect(() => {
+        setActiveMenu(window.location.pathname)
+    },[])
 	return (
 		<div className="top-nav-content">
             <div className="top-nav-company-info">
@@ -53,6 +80,7 @@ function TopNavigation() {
 				<div className="top-nav-menu-list">
 					{menuList.map((menu) => (
 						<Link
+                            onClick={() => setActiveMenu(menu.url)}
 							to={menu.url}
 							className={
 								"top-nav-menu " +

@@ -9,6 +9,8 @@ import NoPage from './Components/pages/No Page/NoPage'
 import Product from './Components/pages/Products/Product'
 import GalleryComponent from './Components/pages/Gallery/GalleryComponent'
 import ComminSoon from './Components/pages/Comming Soon/CommingSoon'
+import ToolRoom from './Components/pages/Tool-room/ToolRoom'
+import Facilities from './Components/pages/Facilities/Facilities'
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
                 <Route path="/contact" element={<ContactUs />} />
                 <Route path="/gallery" element={<GalleryComponent />} />
                 <Route path="/clients" element={<ComminSoon />} />
+                <Route path="/tools" element={<ToolRoom />} />
+                <Route path="/facilities" element={<Facilities />} />
                 <Route path="/*" render={() => (<Redirect to="/" />)} />
             </Routes>
         </BrowserRouter>

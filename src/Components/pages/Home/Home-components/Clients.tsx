@@ -1,27 +1,19 @@
 import React from 'react';
-import client1 from '../../../../assets/Clients/client-1.webp'
-import client2 from '../../../../assets/Clients/client-2.webp'
-import client3 from '../../../../assets/Clients/client-3.webp'
-import client4 from '../../../../assets/Clients/client-4.webp'
-import client5 from '../../../../assets/Clients/client-5.webp'
+import Motherson from '../../../../assets/Clients/Mother son.webp'
+import TheMetalsCompany from '../../../../assets/Clients/TheMetalsCompany.webp'
+import UNOMinda from '../../../../assets/Clients/UNO Minda.webp'
 
 function Clients(props) {
     return (
         <div className='home-our-clients-content'>
             <div className="client-image">
-                <img src={client1} alt="" />
+                <img src={TheMetalsCompany} alt="" />
             </div>
             <div className="client-image">
-                <img src={client2} alt="" />
+                <img src={Motherson} alt="" />
             </div>
             <div className="client-image">
-                <img src={client3} alt="" />
-            </div>
-            <div className="client-image">
-                <img src={client4} alt="" />
-            </div>
-            <div className="client-image">
-                <img src={client5} alt="" />
+                <img src={UNOMinda} alt="" />
             </div>
         </div>
     );
