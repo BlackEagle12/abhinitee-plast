@@ -7,12 +7,22 @@ import Slide2 from '../../../../assets/Slider/slide-2.webp'
 
 function HomeSlider(props) {
     let [index, setIndex] = useState(0);
+    let slideTimer: any = ""
     
     useEffect(() => {
-        if(index == 2){
+        if(slideTimer != null)
+            clearInterval(slideTimer)
+
+        slideTimer = setInterval(() => {
+            setIndex((prev) => prev + 1)
+        }, 10000)
+    })
+
+    useEffect(() => {
+        if(index >= 2){
             setIndex(0)
-        }
-        if(index == -1){
+        } 
+        if(index <= -1){
             setIndex(1)
         }
 
@@ -42,8 +52,9 @@ function HomeSlider(props) {
 
     },[index])
 
+
     const changeSlide = (num) => {        
-        setIndex((currentValue) => currentValue + num);            
+        setIndex((currentValue) => currentValue + num);
     }
 
     return (
@@ -58,14 +69,14 @@ function HomeSlider(props) {
                         <div className='home-slider-slide-one-content'>
                             <div className='home-slider-slide-one-content-heading'> Serving The Quality Products </div>
                             <div className='home-slider-slide-one-content-sub-heading'> call Now</div>
-                            <div className='home-slider-slide-one-content-contact'> 
+                            {/* <div className='home-slider-slide-one-content-contact'> 
                                 <div className='home-slider-slide-one-content-contact-phone-icon'>
                                     <FontAwesomeIcon icon={faPhone} />
                                 </div>
                                 <div className='home-slider-slide-one-content-contact-phone-no'>
                                     +91 7874804852
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <img src={Slide1}></img>

@@ -49,7 +49,7 @@ function ToolRoom(props) {
 									Name={tool.Name}
 									Image={tool.Image}
 									Description={tool.Description}
-									Index={index + 1}
+									Index={"0" + (index + 1)}
 								/>
 							</div>
 						))}

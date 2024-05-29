@@ -449,13 +449,6 @@
 		}
 	}
 
-	.tool-desription {
-		display: flex;
-		flex-direction: column;
-        padding: 50px;
-        width: 60%;
-	}
-
 	.tool-name {
 		font-family: "Kanit", sans-serif;
 		font-size: 26px;
@@ -465,7 +458,7 @@
 	}
 
     .tool-desription-parent{
-        width: 50%;
+        width: 60%;
         padding: 20px;
     }
 
