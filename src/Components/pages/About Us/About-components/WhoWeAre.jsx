@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionHeading from '../../../Common/SectionHeading';
-import machine1 from '../../../../assets/machine/machine-1.webp';
+import WhoWeAreImage from '../../../../assets/machine/WhoWeAre.webp';
 import logo from '../../../../assets/logo/abhinidhi-logo.webp';
 
 function WhoWeAre(props) {
@@ -8,7 +8,7 @@ function WhoWeAre(props) {
     return (
         <div className='about-us-who-we-are-content'>
             <div className="who-we-are-image">
-                <img src={machine1} alt="" />
+                <img src={WhoWeAreImage} alt="" />
             </div>
             <div className="who-we-are">
                 <div className="who-we-are-heading">

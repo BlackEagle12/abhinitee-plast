@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Logo from '../../assets/logo/abhinidhi-logo.webp'
 import DesBadlega from '../../assets/top-nav/ye-desh-badlegapng.png'
 
@@ -41,7 +41,7 @@ function TopNavigation() {
 			url: "/clients",
 		},
 		{
-			name: "Contect Us",
+			name: "Contact Us",
 			isActive: false,
 			url: "/contact",
 		},
@@ -67,8 +67,8 @@ function TopNavigation() {
 	return (
 		<div className="top-nav-content">
             <div className="top-nav-company-info">
-                <div className="top-nav-company-name">Abhinitee Plast</div>
-                <div className="top-nav-company-desc">Abhinitee Plast slogan</div>
+                <div className="top-nav-company-name">Abhinitee Plast <br />private limited</div>
+                <div className="top-nav-company-desc">We mold the future</div>
             </div>
 			<div className="top-nav-right-pannel">
 				<div className="top-nav-slogan">

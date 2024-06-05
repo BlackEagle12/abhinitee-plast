@@ -1,5 +1,5 @@
 import React from 'react';
-import PrecisionMachining from '../../../../assets/product-images/Precision Machining.webp'
+import PrecisionMachining from '../../../../assets/machine/WhyToChoose.webp'
 
 function IndustrySkills(props) {
     return (

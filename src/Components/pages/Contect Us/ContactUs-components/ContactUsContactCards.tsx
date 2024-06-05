@@ -9,20 +9,20 @@ function ContactUsContactCards(props) {
         {
             Icon: faMobile,
             Heading: "TALK TO US",
-            text1: "+91 78748 04852",
-            text2: "+91 78748 04852"
+            text1: "+91 96578 10049",
+            text2: "+91 95031 86868"
         },
         {
             Icon: faEnvelope,
             Heading: "MAIL US",
-            text1: "abc@abhiniteeplast.com",
-            text2: "def@abhiniteeplast.com"
+            text1: "marketing@abhiniteeplast.com",
+            text2: "abhiniteeplastIndia@gmail.com"
         },
         {
             Icon: faLocationDot,
             Heading: "OUR LOCATION",
-            text1: "625 @ David Blake Road,",
-            text2: "Adventureland, India"
+            text1: "Plot No - PAP B-16, M.I.D.C. Chakan, Opp Mahindra & Mahindra Gate No -10, Pune-411501, Maharastra,India",
+            text2: ""
         }
     ])
 
