@@ -1,5 +1,5 @@
 .top-navigation-container {
-	padding: 0px 50px;
+	padding: 0px 25px;
 
 	.top-nav-content {
 		width: 100%;
@@ -11,21 +11,22 @@
 
     .top-nav-company-info{
         letter-spacing: 1px;
-        font-family: 'Open Sans',sans-serif;
-        min-width: max-content;
+        font-family: "EB Garamond", serif;
+        min-width: 15%;
         text-transform: uppercase;
+		text-align: center;
     }
 
 	.top-nav-company-name {
-		font-size: 30px;
+		font-size: 20px;
 		color: #fe0001;
 		font-weight: 800;
-		text-shadow: 1px 1px 4px black;
+		text-shadow: 1px 1px 1px black;
 	}
 
     .top-nav-company-desc {
-		font-size: 16px;
-		font-weight: 600;
+		font-size: 15px;
+		font-weight: 800;
 	}
 
 	.top-nav-logo {
@@ -45,18 +46,19 @@
 		justify-content: space-around;
 		width: 80%;
 		height: 60%;
+		padding: 10px;
 	}
 
 	.top-nav-menu {
+		box-sizing: border-box;
 		display: flex;
 		align-items: center;
 		height: 100%;
-		padding: 0 10px;
 		font-family: "Abel", sans-serif;
 		font-weight: 400;
 		font-style: normal;
 		font-size: 18px;
-		padding: 0 15px;
+		padding: 0px 15px;
 		text-decoration: none;
 		color: black;
 		transition-duration: 500ms;
@@ -345,6 +347,13 @@
 	color: white;
 	background-color: black;
 	text-transform: capitalize;
+
+	span{
+		text-transform: uppercase;
+		color: #fe0001;
+		font-family: "EB Garamond", serif;
+		text-shadow: 1px 1px 1px white;
+	}
 }
 
 .our-product-card-2 {

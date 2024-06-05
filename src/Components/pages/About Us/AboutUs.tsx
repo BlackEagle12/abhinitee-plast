@@ -10,15 +10,15 @@ function AboutUs(props) {
     return (
         <>
             <div className="section-heading-container">
-				<SectionHeading
-					backgroundText="Plast"
-					headingText1="What"
-					headingText2="WE do"
-				/>
-			</div>
+                <SectionHeading
+                    backgroundText="Plast"
+                    headingText1="What"
+                    headingText2="WE do"
+                />
+            </div>
             <div className="about-what-we-do-container">
                 <p className='what-we-do-text'>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                 </p>
             </div>
 
@@ -36,7 +36,7 @@ function AboutUs(props) {
                 <WhoWeAre />
             </div>
 
-            <div className="section-heading-container">
+            {/* <div className="section-heading-container">
 				<SectionHeading
 					backgroundText="Plast"
 					headingText1="OUR"
@@ -46,6 +46,14 @@ function AboutUs(props) {
 
             <div className="about-us-our-flagship-products-container">
                 <OurFlagshipProducts />
+            </div> */}
+
+            <div className="section-heading-container">
+                <SectionHeading
+                    backgroundText="Plast"
+                    headingText1="OUR"
+                    headingText2="Team"
+                />
             </div>
 
             <div className="footer-container">
