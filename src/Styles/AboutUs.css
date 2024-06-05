@@ -170,3 +170,22 @@
         scale: 1.2;
     }
 }
+
+.about-us-our-team-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .about-us-our-team-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .about-us-team-card{
+        width: 40%;
+        margin: 40px;
+    }
+}

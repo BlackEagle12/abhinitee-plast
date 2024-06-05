@@ -4,9 +4,62 @@ import WhatWeDoBoxes from './About-components/WhatWeDoBoxes';
 import { Link } from 'react-router-dom';
 import WhoWeAre from './About-components/WhoWeAre';
 import Footer from '../../Common/Footer';
-import OurFlagshipProducts from './About-components/OurFlagshipProducts';
+import BuddyCardTwo from '../../Common/BuddyCardTwo';
+
+import amit from '../../../assets/Buddy/amit sali.webp'
+import harish from '../../../assets/Buddy/Mr.HarishShrirao.webp'
+import jitu from '../../../assets/Buddy/Mr.JitendraIngale.webp'
+import nitin from '../../../assets/Buddy/Mr.NiteenJadhav.webp'
+import vidhu from '../../../assets/Buddy/vidhulaaahir.webp'
+import mangu from '../../../assets/Buddy/Mr.MangeshThorat2.webp'
 
 function AboutUs(props) {
+
+    const buddies = [
+        {
+            Name : "Amit sali",
+            Image : amit,
+            Education : "B.tech",
+            Designation : "Director",
+            Achievements : "Ha Ha!!"
+        },
+        {
+            Name : "harish",
+            Image : harish,
+            Education : "B.tech",
+            Designation : "Director",
+            Achievements : "Ha Ha!!"
+        },
+        {
+            Name : "Jitendra",
+            Image : jitu,
+            Education : "B.tech",
+            Designation : "Director",
+            Achievements : "Ha Ha!!"
+        },
+        {
+            Name : "Nitin",
+            Image : nitin,
+            Education : "B.tech",
+            Designation : "Director",
+            Achievements : "Ha Ha!!"
+        },
+        {
+            Name : "Mangesh sorath",
+            Image : mangu,
+            Education : "B.tech",
+            Designation : "Director",
+            Achievements : "Ha Ha!!"
+        },
+        {
+            Name : "Vidhula ahir",
+            Image : vidhu,
+            Education : "B.tech",
+            Designation : "Director",
+            Achievements : "Ha Ha!!"
+        },
+    ]
+
     return (
         <>
             <div className="section-heading-container">
@@ -54,6 +107,25 @@ function AboutUs(props) {
                     headingText1="OUR"
                     headingText2="Team"
                 />
+            </div>
+            
+            <div className="about-us-our-team-container">
+                <div className="about-us-our-team-content">
+                    {
+                        buddies.map(buddy => (
+                            <div className='about-us-team-card'>
+                                <BuddyCardTwo 
+                                    Name = {buddy.Name}
+                                    Image = {buddy.Image}
+                                    Education = {buddy.Education}
+                                    Designation = {buddy.Designation}
+                                    Achievements = {buddy.Achievements}
+                                />
+                            </div>
+                        ))
+                    }
+
+                </div>
             </div>
 
             <div className="footer-container">
