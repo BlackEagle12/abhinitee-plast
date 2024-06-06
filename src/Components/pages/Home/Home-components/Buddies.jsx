@@ -12,7 +12,7 @@ function Buddies(props) {
         {
             Image : jitu,
             Name: "Jitendra Ingale",
-            Designation: "CEO & Director (DME,BE Mech, M-CADCAM-CITD )"
+            Designation: "Director (DME,BE Mech, M-CADCAM-CITD )"
         },
         {
             Image : amit,

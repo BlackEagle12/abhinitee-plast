@@ -1,0 +1,38 @@
+.facalities-tools-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .facalities-tools-content{
+        width: 80%;
+    }
+
+    .images{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .our-products-item{
+        overflow: hidden;
+        border: solid rgba(0, 0, 0, 0) 1px;
+        width: 30%;
+
+        img{
+            width: 100%;
+            transition-duration: 1s;
+
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+        
+        &:hover{
+            border: solid rgba(0, 0, 0, 0.305) 1px;
+        }
+    }
+
+    .tools-desc{
+        
+    }
+}

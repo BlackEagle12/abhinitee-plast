@@ -17,46 +17,46 @@ function AboutUs(props) {
 
     const buddies = [
         {
+            Name : "Jitendra",
+            Image : jitu,
+            Education : "B.E. Mechanical, D.M.E.",
+            Designation : "Director",
+            Achievements : "Having sound knowledge inSales & Marketing of Dies like LPDC, HPDC, GDC, Injection Molds, Sand Casting Foundry toolings..etc"
+        },
+        {
             Name : "Amit sali",
             Image : amit,
             Education : "B.tech",
             Designation : "Director",
-            Achievements : "Ha Ha!!"
+            Achievements : "Updating soon.."
+        },
+        {
+            Name : "Mangesh sorath",
+            Image : mangu,
+            Education : "D.M.E.",
+            Designation : "Director",
+            Achievements : "Having sound knowledge in Design & Manufacturing of Dies like LPDC, HPDC, GDC, Injection Molds, Sand Casting Foundry toolings..etc"
+        },
+        {
+            Name : "Nitin",
+            Image : nitin,
+            Education : "B.E. Mechanical, D.M.E., M-CAD/CAM (CITD HYD)",
+            Designation : "Founder member",
+            Achievements : "Having sound knowledge in Design & Manufacturing of Dies like LPDC, HPDC, GDC, Injection Molds, Sand Casting Foundry toolings..etc"
         },
         {
             Name : "harish",
             Image : harish,
             Education : "B.tech",
-            Designation : "Director",
-            Achievements : "Ha Ha!!"
-        },
-        {
-            Name : "Jitendra",
-            Image : jitu,
-            Education : "B.tech",
-            Designation : "Director",
-            Achievements : "Ha Ha!!"
-        },
-        {
-            Name : "Nitin",
-            Image : nitin,
-            Education : "B.tech",
-            Designation : "Director",
-            Achievements : "Ha Ha!!"
-        },
-        {
-            Name : "Mangesh sorath",
-            Image : mangu,
-            Education : "B.tech",
-            Designation : "Director",
-            Achievements : "Ha Ha!!"
-        },
+            Designation : "D.M.E.",
+            Achievements : "Having sound knowledge in Manufacturing of Dies like LPDC, HPDC, GDC,Injection Molds, Sand Casting Foundry toolings..etc"
+        },        
         {
             Name : "Vidhula ahir",
             Image : vidhu,
-            Education : "B.tech",
+            Education : "B.E. Mechanical, D.M.E.",
             Designation : "Director",
-            Achievements : "Ha Ha!!"
+            Achievements : "Having sound knowledge in Design & Manufacturing of Dies like LPDC, HPDC, GDC, Injection Molds, Sand Casting Foundry toolings..etc"
         },
     ]
 

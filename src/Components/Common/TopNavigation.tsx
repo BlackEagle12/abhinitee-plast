@@ -26,15 +26,15 @@ function TopNavigation() {
 			url: "/product",
 		},
         {
-			name: "Facilities",
+			name: "Infrastructure",
 			isActive: false,
 			url: "/facilities",
 		},
-		{
-			name: "Gallery",
-			isActive: false,
-			url: "/gallery",
-		},
+		// {
+		// 	name: "Gallery",
+		// 	isActive: false,
+		// 	url: "/gallery",
+		// },
 		{
 			name: "Our Clients",
 			isActive: false,
