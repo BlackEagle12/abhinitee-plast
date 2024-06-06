@@ -1,16 +1,17 @@
-.facalities-tools-container{
+.facalities-section-container{
     display: flex;
     justify-content: center;
     align-items: center;
 
-    .facalities-tools-content{
+    .facalities-section-content{
         width: 80%;
     }
-
+    
     .images{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .our-products-item{
@@ -33,6 +34,10 @@
     }
 
     .tools-desc{
-        
+        padding: 50px 0;
+        font-family: "Abel", sans-serif;
+		font-weight: 400;
+        font-size: 18px;
+        /* abel 17 px */
     }
 }
