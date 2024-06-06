@@ -3,6 +3,12 @@ import SectionHeading from "../../Common/SectionHeading";
 import tool1 from '../../../assets/Infracture/design-tool01.webp'
 import tool2 from '../../../assets/Infracture/design-tool02.webp'
 import tool3 from '../../../assets/Infracture/design-tool03.webp'
+import infra1 from '../../../assets/Infracture/infa-icon-1.png'
+import infra2 from '../../../assets/Infracture/infa-icon-2.png'
+import infra3 from '../../../assets/Infracture/infa-icon-3.png'
+import infra4 from '../../../assets/Infracture/infa-icon-4.png'
+import infra5 from '../../../assets/Infracture/infa-icon-5.png'
+import infra6 from '../../../assets/Infracture/infa-icon-6.png'
 import ProductCardOne from "../../Common/ProductCardOne";
 import Footer from "../../Common/Footer";
 function Facilities(props) {
@@ -23,12 +29,12 @@ function Facilities(props) {
 	]
 
 	const infracture = [
-		tool1,
-		tool2,
-		tool3,
-		tool3,
-		tool2,
-		tool1
+		{Image: infra1, Desc: ""},
+		{Image: infra2, Desc: ""},
+		{Image: infra3, Desc: ""},
+		{Image: infra4, Desc: ""},
+		{Image: infra5, Desc: ""},
+		{Image: infra6, Desc: ""}
 	]
 
 	return (
@@ -82,7 +88,8 @@ function Facilities(props) {
 						{facilities &&
 							facilities.slice(3,6).map((product) => (
 								<div className="our-products-item">
-									<img src={product} />
+									<img src={product.Image} />
+									<img src={product.Image} />
 								</div>
 							))}
 					</div>
@@ -102,7 +109,7 @@ function Facilities(props) {
 					<div className="images">
 						{infracture &&
 							infracture.map((product) => (
-								<div className="our-products-item">
+								<div className="infra-icon">
 									<img src={product} />
 								</div>
 							))}
