@@ -7,9 +7,15 @@ import infra1 from '../../../assets/Infracture/infa-icon-1.png'
 import infra2 from '../../../assets/Infracture/infa-icon-2.png'
 import infra3 from '../../../assets/Infracture/infa-icon-3.png'
 import infra4 from '../../../assets/Infracture/infa-icon-4.png'
-import infra5 from '../../../assets/Infracture/infa-icon-5.png'
 import infra6 from '../../../assets/Infracture/infa-icon-6.png'
-import ProductCardOne from "../../Common/ProductCardOne";
+
+import Compressor from '../../../assets/Infracture/Compressor.webp'
+import Cooling from '../../../assets/Infracture/Cooling tower.webp'
+import Machines from '../../../assets/Infracture/Machines.webp'
+import Scale from '../../../assets/Infracture/Scale.webp'
+import Assembly from '../../../assets/Infracture/Assembly.webp'
+import quality from '../../../assets/Infracture/quality.webp'
+
 import Footer from "../../Common/Footer";
 function Facilities(props) {
 
@@ -20,21 +26,20 @@ function Facilities(props) {
 	]
 
 	const facilities = [
-		tool1,
-		tool2,
-		tool3,
-		tool3,
-		tool2,
-		tool1
+		Compressor,
+		Cooling,
+		Machines,
+		Scale,
+		Assembly,
+		quality
 	]
 
 	const infracture = [
-		{Image: infra1, Desc: ""},
-		{Image: infra2, Desc: ""},
-		{Image: infra3, Desc: ""},
-		{Image: infra4, Desc: ""},
-		{Image: infra5, Desc: ""},
-		{Image: infra6, Desc: ""}
+		{Image: infra1, Desc: "6150 sq.ft. area"},
+		{Image: infra2, Desc: "7800 sq. feet build up area"},
+		{Image: infra3, Desc: "100 HP Electric Power"},
+		{Image: infra4, Desc: "7+ Milacron machines 50 to 250 tons of capacity"},
+		{Image: infra6, Desc: "In House toll room facality"}
 	]
 
 	return (
@@ -88,8 +93,7 @@ function Facilities(props) {
 						{facilities &&
 							facilities.slice(3,6).map((product) => (
 								<div className="our-products-item">
-									<img src={product.Image} />
-									<img src={product.Image} />
+									<img src={product} />
 								</div>
 							))}
 					</div>
@@ -110,7 +114,8 @@ function Facilities(props) {
 						{infracture &&
 							infracture.map((product) => (
 								<div className="infra-icon">
-									<img src={product} />
+									<img src={product.Image} />
+									<div>{product.Desc}</div>
 								</div>
 							))}
 					</div>
