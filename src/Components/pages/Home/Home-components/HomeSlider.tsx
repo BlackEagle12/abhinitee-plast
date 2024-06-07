@@ -85,8 +85,8 @@ function HomeSlider(props) {
                 <div className='slide-two'>
                 <div className='home-slider-slide-content'>
                         <div className='home-slider-slide-two-content'>
-                            <div className='home-slider-slide-two-content-heading'> Call Now</div>
-                            <div className='home-slider-slide-two-content-sub-heading'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, vel! </div>
+                            <div className='home-slider-slide-two-content-heading'> </div>
+                            <div className='home-slider-slide-two-content-sub-heading'> We mold the Future </div>
                         </div>
                     </div>
                     <img src={Slide2}></img>
