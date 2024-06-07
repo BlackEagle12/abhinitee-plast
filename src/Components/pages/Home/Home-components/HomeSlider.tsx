@@ -10,20 +10,23 @@ function HomeSlider(props) {
     let slideTimer: any = ""
     
     useEffect(() => {
-        if(slideTimer != null)
-            clearInterval(slideTimer)
-
+        
         slideTimer = setInterval(() => {
+            if(slideTimer)
+                clearInterval(slideTimer)
+            
             setIndex((prev) => prev + 1)
         }, 10000)
-    })
+    },[])
 
     useEffect(() => {
         if(index >= 2){
             setIndex(0)
+            return;
         } 
         if(index <= -1){
             setIndex(1)
+            return;
         }
 
         let homeSlider = document.querySelector<HTMLElement>('.home-slider')
@@ -83,14 +86,14 @@ function HomeSlider(props) {
                 </div>
 
                 <div className='slide-two'>
-                <div className='home-slider-slide-content'>
-                        <div className='home-slider-slide-two-content'>
-                            <div className='home-slider-slide-two-content-heading'> </div>
-                            <div className='home-slider-slide-two-content-sub-heading'> We mold the Future </div>
+                    <div className='home-slider-slide-content'>
+                            <div className='home-slider-slide-two-content'>
+                                <div className='home-slider-slide-two-content-heading'> </div>
+                                <div className='home-slider-slide-two-content-sub-heading'> We mold the Future </div>
+                            </div>
                         </div>
+                        <img src={Slide2}></img>
                     </div>
-                    <img src={Slide2}></img>
-                </div>
             </div>
             <div className='icon right-arrow'>
                 <FontAwesomeIcon icon={faChevronRight} onClick={() => changeSlide(1)} />
