@@ -15,7 +15,7 @@ import ToolDesign from '../../../assets/product-images/Tool Design.webp'
 import PowderCoating from '../../../assets/product-images/Powder Coating.webp'
 import PaintShop from '../../../assets/product-images/Paint Shop.webp'
 import FIREWALLSTATION from '../../../assets/product-images/FIRE WALL STATION.webp'
-
+import HomeSliderNew from "./Home-components/HomeSliderNew";
 
 function Home(props) {
 	let [homeProducts, setHomeProducts] = useState([
@@ -53,7 +53,7 @@ function Home(props) {
 	return (
 		<>
 			<div className="home-slider-container">
-				<HomeSlider />
+				<HomeSliderNew />
 			</div>
 			<div className="section-heading-container">
 				<SectionHeading

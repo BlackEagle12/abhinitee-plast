@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeading from "../../Common/SectionHeading";
-import tool1 from '../../../assets/Infracture/design-tool01.webp'
+import tool1 from '../../../assets/Infracture/WireCut.jpg'
 import tool2 from '../../../assets/Infracture/design-tool02.webp'
 import tool3 from '../../../assets/Infracture/design-tool03.webp'
 import infra1 from '../../../assets/Infracture/infa-icon-1.png'
@@ -13,7 +13,7 @@ import Compressor from '../../../assets/Infracture/Compressor.webp'
 import Cooling from '../../../assets/Infracture/Cooling tower.webp'
 import Machines from '../../../assets/Infracture/Machines.webp'
 import Scale from '../../../assets/Infracture/Scale.webp'
-import Assembly from '../../../assets/Infracture/Assembly.webp'
+import machine from '../../../assets/Infracture/machine.webp'
 import quality from '../../../assets/Infracture/quality.webp'
 
 import Footer from "../../Common/Footer";
@@ -30,7 +30,7 @@ function Facilities(props) {
 		Cooling,
 		Machines,
 		Scale,
-		Assembly,
+		machine,
 		quality
 	]
 

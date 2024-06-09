@@ -11,6 +11,7 @@ import GalleryComponent from './Components/pages/Gallery/GalleryComponent'
 import ComminSoon from './Components/pages/Comming Soon/CommingSoon'
 import ToolRoom from './Components/pages/Tool-room/ToolRoom'
 import Facilities from './Components/pages/Facilities/Facilities'
+import OurClients from './Components/pages/Our Clients/OurClients'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
                 <Route path="/product" element={<Product />} />
                 <Route path="/contact" element={<ContactUs />} />
                 <Route path="/gallery" element={<GalleryComponent />} />
-                <Route path="/clients" element={<ComminSoon />} />
+                <Route path="/clients" element={<OurClients />} />
                 <Route path="/tools" element={<ToolRoom />} />
                 <Route path="/facilities" element={<Facilities />} />
                 <Route path="/*" render={() => (<Redirect to="/" />)} />

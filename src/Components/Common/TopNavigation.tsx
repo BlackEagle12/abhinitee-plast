@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
+import DesktopTopNavigation from "./DesktopTopNavigation";
+import MobileTopNavigation from "./MobileTopNavigation";
 import { Link } from "react-router-dom";
-import Logo from '../../assets/logo/abhinidhi-logo.webp'
-import DesBadlega from '../../assets/top-nav/ye-desh-badlegapng.png'
 
 function TopNavigation() {
 	let [menuList, SetMenuList] = useState([
@@ -15,7 +15,7 @@ function TopNavigation() {
 			isActive: false,
 			url: "/about",
 		},
-        {
+		{
 			name: "Tool Room",
 			isActive: false,
 			url: "/tools",
@@ -25,7 +25,7 @@ function TopNavigation() {
 			isActive: false,
 			url: "/product",
 		},
-        {
+		{
 			name: "Infrastructure",
 			isActive: false,
 			url: "/facilities",
@@ -47,55 +47,67 @@ function TopNavigation() {
 		},
 	]);
 
-    const setActiveMenu = (url) => {        
-        let newMenuList = [...menuList]
-        newMenuList.forEach((menu) => {
-            if(menu.url === url){
-                menu.isActive = true
-            }
-            else{
-                menu.isActive = false
-            }
-        })
+	let [scrWidth, setScrWidth] = useState(window.innerWidth);
 
-        SetMenuList(newMenuList)
-    }
+	let [showMenu, setShowMenu] = useState(false);
 
-    useEffect(() => {
-        setActiveMenu(window.location.pathname)
-    },[])
+	const setActiveMenu = (url) => {
+		let newMenuList = [...menuList];
+		newMenuList.forEach((menu) => {
+			if (menu.url === url) {
+				menu.isActive = true;
+			} else {
+				menu.isActive = false;
+			}
+		});
+
+		SetMenuList(newMenuList);
+	};
+
+	useEffect(() => {
+		setActiveMenu(window.location.pathname);
+		setScrWidth(window.innerWidth);
+	}, []);
+
 	return (
-		<div className="top-nav-content">
-            <div className="top-nav-company-info">
-                <div className="top-nav-company-name">Abhinitee Plast <br />private limited</div>
-                <div className="top-nav-company-desc">We mold the future</div>
-            </div>
-			<div className="top-nav-right-pannel">
-				<div className="top-nav-slogan">
-					<img
-						src={DesBadlega}
-						alt="slogan"
-					></img>
+		<>
+			{scrWidth > 700 && (
+				<div className="top-nav-content">
+					<DesktopTopNavigation
+						setActiveMenu={setActiveMenu}
+						menuList={menuList}
+						setMenuList={SetMenuList}
+					/>
 				</div>
-				<div className="top-nav-menu-list">
-					{menuList.map((menu) => (
-						<Link
-                            onClick={() => setActiveMenu(menu.url)}
-							to={menu.url}
-							className={
-								"top-nav-menu " +
-								(menu.isActive ? "top-nav-active-menu" : "")
-							}
-						>
-							{menu.name}
-						</Link>
-					))}
-				</div>
-			</div>
-			<div className="top-nav-logo">
-				<img src={Logo} alt="logo" />
-			</div>
-		</div>
+			)}
+			{scrWidth <= 700 && (
+				<>
+					<div className="top-nav-content">
+						<MobileTopNavigation
+							setActiveMenu={setActiveMenu}
+							menuList={menuList}
+							setMenuList={SetMenuList}
+							showMenu={showMenu}
+							setShowMenu={setShowMenu}
+						/>
+					</div>
+					<div className={"top-nav-menu-list " + (showMenu ? '' : 'display-none')}>
+						{menuList.map((menu) => (
+							<Link
+								onClick={() => {setActiveMenu(menu.url); setShowMenu(false)} }
+								to={menu.url}
+								className={
+									"top-nav-menu " +
+									(menu.isActive ? "top-nav-active-menu" : "")
+								}
+							>
+								{menu.name}
+							</Link>
+						))}
+					</div>
+				</>
+			)}
+		</>
 	);
 }
 

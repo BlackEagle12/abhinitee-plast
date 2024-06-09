@@ -21,6 +21,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        @media screen and (max-width: 1200px) {
+            flex-wrap: wrap;
+        }
     }
 
     .what-we-do-box{
@@ -33,6 +37,10 @@
         transition-duration: 500ms;
         width: 30%;
         min-height: 350px;
+
+        @media screen and (max-width:700px) {
+			width: 100%;
+		}
     }
 
     .what-we-do-box-heading{
@@ -65,15 +73,27 @@
 .about-us-who-we-are-container{
     width: 100%;
     background-color: #f6f6f6;
-    padding: 100px 200px;
+    padding: 6rem 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
 
+    @media screen and (max-width:1200px) {
+        padding: 3rem 5rem;
+    }
+
+    @media screen and (max-width:700px) {
+        padding: 1rem 2rem;
+    }
+    
     .about-us-who-we-are-content{
         width: 100%;
         display: flex;
+        
+        @media screen and (max-width:1200px) {
+            flex-wrap: wrap;
+        }
     }
 
     .section-heading-container{
@@ -92,12 +112,20 @@
             width: 100%;
             height: 100%;
             transition-duration: 2s;
-        }   
+        } 
+        
+        @media screen and (max-width:1200px) {
+			width: 100%;
+		}
     }
 
     .who-we-are{
         width: 50%;
         padding: 20px;
+
+        @media screen and (max-width:1200px) {
+			width: 100%;
+		}
     }
 
     .who-we-are-description{
@@ -185,7 +213,12 @@
     }
 
     .about-us-team-card{
-        width: 40%;
         margin: 40px;
+        width: 40%;
+        
+        @media screen and (max-width:1200px) {
+            width: 100%;
+            margin: 40px 5px 40px 30px;
+        }
     }
 }

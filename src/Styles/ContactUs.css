@@ -12,12 +12,13 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.05);;
-
+    
     .contact-us-contect-cards-content{
         width: 80%;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .contect-card{
@@ -29,6 +30,11 @@
         transition-duration: 1s;
         position: relative;
         top: -55px;
+
+        @media screen and (max-width:1200px) {
+			width: 100%;
+            margin-top: 30px;
+		}
     }
     
     .contact-icon{
@@ -81,11 +87,19 @@
         width: 80%;
         display: flex;
         justify-content: center;
-        padding: 100px 0;
+        
+        @media screen and (max-width:1200px) {
+            padding: 50px 0;
+            flex-direction: column;
+		}
     }
 
     .user-action-message{
         width: 20%;
+
+        @media screen and (max-width:1200px) {
+			width: 100%;
+		}
     }
 
     .action-message-heading{
@@ -106,6 +120,10 @@
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
+
+        @media screen and (max-width:1200px) {
+			width: 100%;
+		}
     }
 
     .input-field, .input-field-textarea{
@@ -116,6 +134,10 @@
         height: 50px;
         padding-top: 10px;
         transition-duration: 300ms;
+
+        @media screen and (max-width:1200px) {
+			width: 100%;
+		}
     }
     
     .input-field-textarea{
@@ -123,6 +145,10 @@
         height: unset;
         align-items: flex-start;
         padding-top: 30px;
+        
+        @media screen and (max-width:1200px) {
+			width: 100%;
+		}
     }
     
     .input-field-icon{

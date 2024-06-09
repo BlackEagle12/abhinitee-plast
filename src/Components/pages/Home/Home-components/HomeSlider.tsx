@@ -8,6 +8,7 @@ import Slide2 from '../../../../assets/Slider/slide-2.webp'
 function HomeSlider(props) {
     let [index, setIndex] = useState(0);
     let slideTimer: any = ""
+    let [scrWidth,setScrWidth] = useState(window.innerWidth)
     
     useEffect(() => {
         
@@ -17,6 +18,8 @@ function HomeSlider(props) {
             
             setIndex((prev) => prev + 1)
         }, 10000)
+
+        setScrWidth(window.innerWidth)
     },[])
 
     useEffect(() => {
@@ -62,16 +65,21 @@ function HomeSlider(props) {
 
     return (
         <div className='home-slider-content'>
-            <div className='icon left-arrow'>
-                <FontAwesomeIcon icon={faChevronLeft} onClick={() => changeSlide(-1)}/>
-            </div>
+            {
+                scrWidth > 700 &&
+				(
+                    <div className='icon left-arrow'>
+                        <FontAwesomeIcon icon={faChevronLeft} onClick={() => changeSlide(-1)}/>
+                    </div>
+                )
+            }
             <div className='home-slider'>
                 <div className='overlay'></div> 
                 <div className='slide-one'>
                     <div className='home-slider-slide-content'>
                         <div className='home-slider-slide-one-content'>
                             <div className='home-slider-slide-one-content-heading'> Serving The Quality Products </div>
-                            <div className='home-slider-slide-one-content-sub-heading'> call Now</div>
+                            {/* <div className='home-slider-slide-one-content-sub-heading'> call Now</div> */}
                             {/* <div className='home-slider-slide-one-content-contact'> 
                                 <div className='home-slider-slide-one-content-contact-phone-icon'>
                                     <FontAwesomeIcon icon={faPhone} />
@@ -95,9 +103,15 @@ function HomeSlider(props) {
                         <img src={Slide2}></img>
                     </div>
             </div>
-            <div className='icon right-arrow'>
-                <FontAwesomeIcon icon={faChevronRight} onClick={() => changeSlide(1)} />
-            </div>
+
+            {
+                scrWidth > 700 &&
+				(
+                    <div className='icon right-arrow'>
+                        <FontAwesomeIcon icon={faChevronRight} onClick={() => changeSlide(1)} />
+                    </div>
+                )
+            }
         </div>
     );
 }
