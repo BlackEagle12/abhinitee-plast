@@ -65,13 +65,13 @@ function AboutUs(props) {
             <div className="section-heading-container">
                 <SectionHeading
                     backgroundText="Plast"
-                    headingText1="What"
-                    headingText2="WE do"
+                    headingText1="What we"
+                    headingText2="Stands for"
                 />
             </div>
             <div className="about-what-we-do-container">
                 <p className='what-we-do-text'>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                Hey there! Just wanted to remind you about the importance of our top-notch quality management system. It's all about ensuring that our processes and procedures are always improving to guarantee the best product quality for our awesome customers. We're dedicated to maintaining the highest standards, especially for our friends in the aviation industry. Plus, we're totally used to having our customers drop by for regular check-ins.
                 </p>
             </div>
 

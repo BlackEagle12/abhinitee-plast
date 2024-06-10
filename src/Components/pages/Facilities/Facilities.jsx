@@ -1,8 +1,9 @@
 import React from "react";
 import SectionHeading from "../../Common/SectionHeading";
-import tool1 from '../../../assets/Infracture/WireCut.jpg'
+import tool3 from '../../../assets/Infracture/WireCut.jpg'
 import tool2 from '../../../assets/Infracture/design-tool02.webp'
-import tool3 from '../../../assets/Infracture/design-tool03.webp'
+import tool1 from '../../../assets/Infracture/vmc.jpg'
+
 import infra1 from '../../../assets/Infracture/infa-icon-1.png'
 import infra2 from '../../../assets/Infracture/infa-icon-2.png'
 import infra3 from '../../../assets/Infracture/infa-icon-3.png'

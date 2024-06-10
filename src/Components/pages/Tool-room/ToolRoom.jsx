@@ -6,6 +6,7 @@ import Design from '../../../assets/tool-room/Design.webp'
 import Core from '../../../assets/tool-room/Core.webp'
 import cavity from '../../../assets/tool-room/cavity.webp'
 import ToolCardOne from '../../Common/ToolCardOne';
+import Footer from '../../Common/Footer';
 
 function ToolRoom(props) {
 
@@ -65,6 +66,9 @@ function ToolRoom(props) {
 						))}
 				</div>
 			</div>
+			<div className="footer-container">
+                <Footer />
+            </div>
         </div>
     );
 }

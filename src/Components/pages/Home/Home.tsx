@@ -52,8 +52,8 @@ function Home(props) {
 	]);
 	return (
 		<>
-			<div className="home-slider-container">
-				<HomeSliderNew />
+			<div>
+				<HomeSlider />
 			</div>
 			<div className="section-heading-container">
 				<SectionHeading

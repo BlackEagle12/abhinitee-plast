@@ -8,7 +8,7 @@ function ContactUsForm(props) {
         <div className='contact-us-contect-form-content'>
             <div className="user-action-message">
                 <div className='action-message-heading'>Get in Touch…</div>
-                <div className='action-message'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</div>
+                <div className='action-message'>Have questions or need assistance? Get in touch with us today! We're here to help and provide the best support.</div>
             </div>
             <div className="user-contect-form">
                 <div className="input-field">
